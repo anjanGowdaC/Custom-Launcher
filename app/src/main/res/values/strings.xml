@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">newl</string>
+    <string name="compose_shortcut_short_label1"> sh1 </string>
+    <string name="compose_shortcut_long_label1"> sh2 </string>
+    <string name="compose_disabled_message1"> msg </string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="x">X</string>
+</resources>

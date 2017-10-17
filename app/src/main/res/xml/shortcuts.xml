@@ -1,0 +1,16 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="25">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/settings"
+        android:shortcutId="shortcut_name"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass=".MainActivity"
+            android:targetPackage="io.rytangle.vfs">
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
